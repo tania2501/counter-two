@@ -12,7 +12,7 @@ function App() {
       const getMaxValue = localStorage.getItem("maxCounterValue");
       if(getMaxValue) {
         return JSON.parse(getMaxValue)
-      } else return 0
+      } else return 5
     }
     const getFromLS2 = ():number => {
       const startNum = localStorage.getItem("startValue");
