@@ -55,7 +55,6 @@ function App() {
   return (
     <div className="App">
       <CounterSettings
-        setNum={setNum}
         maxValue={max}
         startValue={start}
         onChangeMaxValue={onChangeMaxValue}

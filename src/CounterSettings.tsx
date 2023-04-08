@@ -3,7 +3,6 @@ import { Button } from "./Button";
 import { CounterInput } from "./CounterInput";
 
 type CounterSettingsType = {
-  setNum: (num: number)=>void
   maxValue: number
   startValue: number
   onChangeMaxValue: (e: ChangeEvent<HTMLInputElement>)=>void
