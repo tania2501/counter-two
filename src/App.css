@@ -22,26 +22,33 @@
 }
 .buttons button {
   width: 45px;
+  height: 20px;
   background-color: #70e4fb;
   border-color: aqua;
   border-style: outset;
-
+}
+.buttons div {
+  display: flex;
+  align-items: center;
 }
 .main {
   text-align: center;
-  width: 180px;
-  height: 150px;
+  width: 380px;
+  height: 350px;
   border: 1px solid #70e4fb;
   margin: 0px auto;
   color: aqua;
-  
+  font-size: 22px; 
 }
 .numBlock {
   border: 1px solid #70e4fb;
-  width: 150px;
-  height: 90px;
-  margin: 5px auto;
+  width: 330px;
+  height: 250px;
+  margin: 20px auto;
   padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .button {
   background-color: #70e4fb;
